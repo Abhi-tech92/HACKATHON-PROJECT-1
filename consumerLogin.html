@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsumerLogin</title>
+    <link rel="stylesheet" href="consumerstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agricultural Products</h1>
+        <div class="product">
+            <img src="wheat.png" alt="Wheat">
+            <div>
+                <h2>Wheat</h2>
+                <p>High-quality wheat grains, perfect for baking and cooking.</p>
+                <p class="price">₹ 40/kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Rice.png" alt="Rice">
+            <div>
+                <h2>Rice</h2>
+                <p>Premium quality rice, ideal for daily consumption.</p>
+                <p class="price">₹ 60/kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="pulses.png" alt="Pulses">
+            <div>
+                <h2>Pulses</h2>
+                <p>Protein-rich pulses, perfect for a healthy diet.</p>
+                <p class="price">₹ 90/kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="vegetables.png" alt="Vegetables">
+            <div>
+                <h2>Vegetables</h2>
+                <p>Fresh and crunchy vegetables, sourced from local farms.</p>
+                <p class="price">₹ 50/kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="tomato.png" alt="tomato">
+            <div>
+                <h2>Tomato</h2>
+                <p>Fresh and crunchy Tomato, sourced from local farms.</p>
+                <p class="price">₹ 30/kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="potato.png" alt="potato">
+            <div>
+                <h2>Potato</h2>
+                <p>Fresh Tomato, sourced from local farms.</p>
+                <p class="price">₹ 20/kg</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Add event listener to each product
+        const products = document.querySelectorAll('.product');
+        products.forEach(product => {
+            product.addEventListener('click', () => {
+                // Add functionality to buy product here
+                alert('Product added to cart!');
+            });
+        });
+    </script>
+</body>
+</html>

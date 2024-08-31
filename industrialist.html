@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>industrilaist page</title>
+    <link rel="stylesheet" href="styleIndustry.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Industrialist Login</h2>
+        <form action="/submit_login" method="post">
+            <div class="form-group">
+                <label for="companyName">Company Name</label>
+                <input type="text" id="companyName" name="companyName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="ownerName">Company Owner Name</label>
+                <input type="text" id="ownerName" name="ownerName" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="captcha-container">
+                <label for="captcha">Verify you are human</label>
+                <img src="captcha_image_url" alt="CAPTCHA Image">
+                <input type="text" id="captcha" name="captcha" placeholder="Enter CAPTCHA" required>
+            </div>
+            <div class="form-group">
+                <!-- <input type="submit" value="Login"> -->
+                <div class="login-box">
+                    <a href="consumerLogin.html" style="text-decoration: none; color: black; font-size: x-large;">Login</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

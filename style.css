@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #70e174; 
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #45a049; 
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    float: left;
+}
+.navbar .links {
+    float: right;
+}
+.navbar .links a {
+    display: inline-block;
+}
+/* websites content  */
+.Farweb{
+    background-color: rgb(253, 115, 115);
+    color: rgb(17, 12, 12);
+    height: 200px;
+}
+/* content sytyle */
+.content-box {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f3a4a4;
+}
+.content-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-columns {
+    display: flex;
+    justify-content: space-around;
+}
+.login-column {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.login-column a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login-column a:hover {
+    color: #333;
+    background-color: #e0e0e0;
+}
+/* emage */
+.image-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 10px;
+}
+.image-box img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+.image-box2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 20px;
+}
+.image-box2 img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(243, 104, 104);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer .links {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .links li {
+    display: inline;
+    margin: 0 10px;
+}
+.footer .links a {
+    color: white;
+    text-decoration: none;
+}
+.footer .links a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons {
+    margin: 20px 0;
+}
+.footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #333;
+}
+.footer .contact-info {
+    margin-top: 20px;
+}

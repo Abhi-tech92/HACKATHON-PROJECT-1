@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Experts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .expert {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .expert img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .expert h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .expert p {
+            font-size: 16px;
+            color: #666;
+        }
+        .expert .contact {
+            margin-top: 20px;
+        }
+        .expert .contact button {
+            width: 100px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .expert .contact button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Agricultural Experts</h1>
+        <div class="expert">
+            <img src="https://picsum.photos/100/100?random=1" alt="Expert 1">
+            <div>
+                <h2>Dr. Sumit Malviya</h2>
+                <p>Crop Specialist</p>
+                <p>10+ years of experience</p>
+                <div class="contact">
+                    <button onclick="startVoiceChat('expert1')">Voice Chat</button>
+                    <button onclick="startVideoChat('expert1')">Video Chat</button>
+                </div>
+            </div>
+        </div>
+        <div class="expert">
+            <img src="https://picsum.photos/100/100?random=2" alt="Expert 2">
+            <div>
+                <h2>Dr. Ram Sinha </h2>
+                <p>Soil Scientist</p>
+                <p>8+ years of experience</p>
+                <div class="contact">
+                    <button onclick="startVoiceChat('expert2')">Voice Chat</button>
+                    <button onclick="startVideoChat('expert2')">Video Chat</button>
+                </div>
+            </div>
+        </div>
+        <div class="expert">
+            <img src="https://picsum.photos/100/100?random=3" alt="Expert 3">
+            <div>
+                <h2>Dr. Bobby Kumar</h2>
+                <p>Entomologist</p>
+                <p>12+ years of experience</p>
+                <div class="contact">
+                    <button onclick="startVoiceChat('expert3')">Voice Chat</button>
+                    <button onclick="startVideoChat('expert3')">Video Chat</button>
+                </div>
+            </div>
+        </div>
+        <div class="expert">
+            <img src="https://picsum.photos/100/100?random=4" alt="Expert 4">
+            <div>
+                <h2>Dr. Aneeta Singh</h2>
+                <p>Plant Pathologist</p>
+                <p>9+ years of experience</p>
+                <div class="contact">
+                    <button onclick="startVoiceChat('expert4')">Voice Chat</button>
+                    <button onclick="startVideoChat('expert4')">Video Chat</button>
+                </div>
+            </div>
+        </div>
+        <div class="expert">
+            <img src="https://picsum.photos/100/100?random=5" alt="Expert 5">
+            <div>
+                <h2>Dr. Raja Maheto</h2>
+                <p>Agronomist</p>
+                <p>11+</p>
+                <p>9+ years of experience</p>
+                <div class="contact">
+                    <button onclick="startVoiceChat('expert4')">Voice Chat</button>
+                    <button onclick="startVideoChat('expert4')">Video Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>        

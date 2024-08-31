@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq {
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .faq-question {
+            font-size: 1.2em;
+            margin: 0;
+            padding: 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .faq-answer {
+            margin: 0;
+            padding: 15px;
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .faq-question:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="faq-container">
+    <div class="faq">
+        <div class="faq-question">What is your return policy?</div>
+        <div class="faq-answer">Our return policy allows you to return items within 7 days of purchase.</div>
+    </div>
+    <div class="faq">
+        <div class="faq-question">How long does shipping take?</div>
+        <div class="faq-answer">Shipping typically takes 5-7 business days, depending on your location.</div>
+    </div>
+    <div class="faq">
+        <div class="faq-question">Do you ship internationally?</div>
+        <div class="faq-answer">Yes, we ship to most countries worldwide. International shipping rates apply.</div>
+    </div>
+    <!-- Add more FAQs here -->
+</div>
+
+<script>
+    document.querySelectorAll('.faq-question').forEach(item => {
+        item.addEventListener('click', () => {
+            const answer = item.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+</body>
+</html>
